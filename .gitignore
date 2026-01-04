@@ -1,0 +1,38 @@
+# Build outputs
+build/
+out/
+*.obj
+*.lib
+*.exp
+*.pdb
+*.ipdb
+*.iobj
+*.ilk
+*.pch
+*.tlog
+*.log
+*.lastbuildstate
+*.vcxproj.user
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+*.vcxproj.filters
+*.vcxproj
+*.sln
+
+# Windows
+Thumbs.db
+Desktop.ini
+
