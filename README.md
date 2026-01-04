@@ -34,13 +34,13 @@ miniCRT/
 
 ## Build & Test
 ```powershell
-cmake -S C:\Users\Euarno\Desktop\miniCRT -B C:\Users\Euarno\Desktop\miniCRT\build
-cmake --build C:\Users\Euarno\Desktop\miniCRT\build --config Release --target minicrt_test
+cmake -S C:\Users\YourPCName\Desktop\miniCRT -B C:\Users\YourPCName\Desktop\miniCRT\build
+cmake --build C:\Users\YourPCName\Desktop\miniCRT\build --config Release --target minicrt_test
 ```
 
 Run the test executable:
 ```powershell
-C:\Users\Euarno\Desktop\miniCRT\build\src\Release\minicrt_test.exe
+C:\Users\YourPCName\Desktop\miniCRT\build\src\Release\minicrt_test.exe
 ```
 It shows a MessageBox with OK/FAIL and returns 0 on success.
 
